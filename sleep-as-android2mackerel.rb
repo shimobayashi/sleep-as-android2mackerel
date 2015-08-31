@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'CSV'
+require 'csv'
 require 'date'
 require 'json'
 require 'net/http'
