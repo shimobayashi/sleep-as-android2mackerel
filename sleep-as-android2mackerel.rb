@@ -51,6 +51,7 @@ CSV.foreach(ARGV[0]) {|row|
   rows = []
 }
 
+p json.to_json
 uri = URI.parse('https://mackerel.io/api/v0/services/myha2/tsdb')
 https = Net::HTTP.new(uri.host, uri.port)
 https.use_ssl = true
